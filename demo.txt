@@ -1,0 +1,25 @@
+	    List<String> list = new ArrayList<String>();
+	    list.add("001");
+	    list.add("002");
+	    list.add("003");
+        Iterator<String> iter = list.iterator();
+        while (iter.hasNext()) {
+            String item = iter.next();
+            if (item.equals(target)) {
+                iter.remove();
+            }
+        }
+		
+		ssh-keygen -t rsa -C "woyaojiayou_a@163.com"
+		eval  "ssh-agent -s"
+		
+		ssh -T git@gitub.com
+
+		$  git config --global --replace-all user.email "woyaojiayou_a@163.com" 
+        $  git config --global --replace-all user.name "upupuup"
+		
+		git pull --allow-unrelated-histories
+
+---------------------
+
+本文来自 lindexi_gd 的CSDN 博客 ，全文地址请点击：https://blog.csdn.net/lindexi_gd/article/details/52554159?utm_source=copy 
